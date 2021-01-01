@@ -1,0 +1,32 @@
+#Class 13. Logical variables and operators.
+
+#There are 2 variables: TRUE or T and FALSE or F, in caps.
+
+#The logical operators are: 
+#< 
+#> 
+#==
+#!= (not equal)
+#<=
+#>=
+#! (not: get the opposite of whatever is in the brackets)
+#| (or)
+#& (and)
+
+4 < 5 
+4|5
+10 > 100
+4==5
+
+Result<-4<5
+Result
+typeof(Result)
+
+Result2<-!(5>1)
+Result2
+
+Result | Result2
+Result & Result2
+
+isTRUE(Result2)
+isTRUE(Result)
