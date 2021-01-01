@@ -11,6 +11,6 @@ while(TRUE){print("Hello")}
 #Example
 C <- 1
 while(C < 12){print(C) 
-C <- C + 1}
+  C <- C + 1}
 
 #NOTE: I tried to execute the command "while(C < 12){print(C)C <- C + 1}" all in just one line and the console gave me "Error: unexpected symbol in "while(C < 12){print(C) C", so, I separated it in two lines. According to Casta, executed the command in just one line is impossible because R do not recognize the command "print + assing" as just one command, so you have to separate it in two: first, the command "print", and then, the command "assing". 
