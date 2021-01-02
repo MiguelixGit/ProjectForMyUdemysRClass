@@ -1,0 +1,11 @@
+#Class 16. The "For" Loop
+
+for(i in 1:5){
+print("Hello, friends")}
+
+i<-1
+for(i in 1:7){
+print("Hello")}
+
+for(i in 3:7){
+print("Hello")}
