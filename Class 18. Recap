@@ -1,0 +1,19 @@
+#Class 18. Recap
+
+#Well, in this video they showed a summary of the last classes (11 to 17), so I am going to make a summary of what I learned:
+
+#There are 4 principal types of variables in R: Integer (L), Double (by default), Complex, Character ("") and Logical (T and F on caps).
+
+#We can assign numbers to varibales (ex. "x<-9") and use R like an calculator. 
+
+#There are two logical variables (T and F) and nine logical operators (<, >, ==, !=, <=, >=, !, |, &).
+
+#The "While" Loop: while () {}: If what is in brackets is TRUE, then what is in brackets will run until what is in parentheses is false, so it can be infinite.
+
+#The console can be used without writing in the script, just by typing directly into the console and hitting enter.
+
+#The "For" Loop: for(i in x:y){}: You repeat the operation in curly brackets until the vector is completed.
+
+#Chaining statements (if, else if and else) are better than nestling statements (if, else, if, else).
+
+#The rnorm() function allows us to get a random variable.
