@@ -1,0 +1,19 @@
+#Class 19. HOMEWORK: Law of Large Numbers.
+
+N<-10000000 #N is the number of tosses.
+Counter<- 0 #"Counter" is the variable that counts how many times the condition is true: It starts from 0.
+for(i in rnorm(N)){  
+  if(i>-1 & i<1){
+    Counter<- Counter+1}}
+Counter/N
+
+#Now, we must compare "Counter/N" with 0.682.
+
+#For N<-10 the console gave: 0.8
+#For N<-100 the console gave: 0.71
+#For N<-1000 the console gave: 0.685
+#For N<-10000 the console gave: 0.6783
+#For N<-100000 the console gave: 0.68335 
+#For N<-1000000 the console gave: 0.682375
+#For N<-10000000 the console gave: 0.682314
+
