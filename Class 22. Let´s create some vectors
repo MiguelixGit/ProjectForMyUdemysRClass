@@ -1,0 +1,31 @@
+#Class 22. Let´s create some vectors.
+
+MyFirstVector<- c(2, 5, 13, 45, 123)
+MyFirstVector
+is.numeric(MyFirstVector) #To check if an object is numeric. This function give TRUE or FALSE.
+is.integer(MyFirstVector) #To check if an vector is integer. MyFirstVector is not an integer vector because numbers stored by default as double.
+is.double(MyFirstVector) #To check if an vector is double. 
+
+Vector2 <- c(2L, 7L, 34L, 67L, 345L)
+is.numeric(Vector2)
+is.integer(Vector2)
+is.double(Vector2)
+
+Vector3 <- c("a", "b3", "hi", 7) #The "7" is automatically converted to a character.
+is.character(Vector3) #To check if an vector is character.
+is.numeric(Vector3)
+is.integer(Vector3)
+is.double(Vector3)
+
+seq() #Sequence: It is like ":", but not the same.
+seq(1,15) #It is the same as "1:15" for this case.
+seq(1,15,2) #You can not do this with ":". This function allows to create a sequence from 1 to 15 with step of 2.
+z <- seq(1,15,4)
+
+rep(3, 10) #This function allows to repeat the 3 by 10 times.
+d <- rep(3,10)
+rep("f", 20)
+x <- c(1,6)
+y <- rep(x, 3) #With this code you repeat the vector "x" 3 times.
+
+#NOTE: No R script was used for "QUIZ 1", and classes 20 and 21.
