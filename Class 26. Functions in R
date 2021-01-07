@@ -1,0 +1,25 @@
+#Class 26. "Functions in R"
+
+#To get information about each function you can put an "?" at the start of the funcion.
+
+rnorm(5, 10, 8)
+rnorm(n=3, mean=23, sd=2)
+
+c()
+seq(10, 20, 3)
+seq(from=10, to=25, by=3)
+seq(from=10, to=25, length.out=6)
+rep(5:6, 10)
+rep(4:3, each=6)
+
+print()
+
+is.numeric()
+is.integer()
+is.double()
+is.character()
+
+typeof()
+
+sqrt()
+paste()
