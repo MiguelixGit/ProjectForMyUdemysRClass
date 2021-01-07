@@ -1,0 +1,11 @@
+#Class 27. "Packages in R".
+
+ininstalled.packages("ggplot2")
+library(ggplot2)
+
+?qplot
+?ggplot
+?diamonds
+
+qplot(data=diamonds, carat, price, 
+      colour=clarity, facets=~clarity)
