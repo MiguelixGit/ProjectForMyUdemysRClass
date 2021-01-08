@@ -1,0 +1,19 @@
+#Class 28. Recap
+
+#A vector is a sequence of elements of the same type.
+
+#c(), seq(), rep().
+
+#is.numeric(), is. double(), is.integer(), is.complex(), is. character().
+
+#x[1], x[-1], x[1:2]...
+
+#Everything in R is a vector.
+
+#Vectorized operations, de-vectorized operations and recycling of vectors.
+
+#Vectorized operations are better tha de-vectorized operations. 
+
+#Functions in R. ?function().
+
+#Packages in R, the CRAN repo.
