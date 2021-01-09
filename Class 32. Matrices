@@ -1,0 +1,9 @@
+#Class 32. Matrices
+
+#Matrices can only have elements of the exact same type.
+
+#The way in which you have access to a particular number in a matrix is by putting its coordinate: A[y,x]...
+
+#You can also access a whole row by putting the row number followed by a comma in parentheses: A[1,]...
+
+#To have acces to a whole column, you need to put the comma after the number of the column: A[,1]...
