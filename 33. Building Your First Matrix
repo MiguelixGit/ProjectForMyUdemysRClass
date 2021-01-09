@@ -1,0 +1,36 @@
+#33. Building Your First Matrix
+
+#There are differents ways to create a matrix: matrix(); rbind(); cbind().
+
+
+#matrix()
+?matrix()
+My.Data <- 1:20
+My.Data
+
+A <- matrix(My.Data, 4, 5, F) 
+A
+A[2,3] #To get number 10.
+
+B <- matrix(My.Data, 4, 5, T)
+B
+B[2,5] #To get number 10.
+
+
+#rbin()
+?rbind()
+R1 <- c("I", "am", "happy")
+R2 <- c("What", "a", "day")
+R3 <- c(1, 2, 3)
+
+C <- rbind(R1, R2, R3)
+C
+
+
+#cbind()
+?cbind()
+C1 <- 1:5
+C2 <- -1:-5
+
+D <- cbind(C1, C2)
+D
