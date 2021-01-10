@@ -1,0 +1,19 @@
+#Class 34. Naming Dimensions.
+
+A <- seq(1, 30, 2)
+A
+
+M <- matrix(A, 3, 5)
+M
+
+#How to naming dimensions (columns and rows)
+colnames(M) <- c("Primera", "Segunda", "Tercera", "Cuarta", "Quinta") #To naming columns.
+M
+rownames(M) <- c("First", "Second", "Third") #To name rows.
+M
+
+#To get access to the number 11 we can use the old names or the new ones. So M["Third", "Segunda"] and M[3,2] will give the same output.
+
+M["Third", "Segunda"]
+M[3,2] 
+
