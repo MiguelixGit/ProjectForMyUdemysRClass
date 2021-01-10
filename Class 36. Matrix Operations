@@ -1,0 +1,18 @@
+#Class 36. Matrix Operations
+
+Games
+rownames(Games)
+colnames(Games)
+
+FieldGoals
+FieldGoals / Games
+round(FieldGoals / Games, 1)
+
+MinutesPlayed
+MinutesPlayed / Games
+round(MinutesPlayed / Games, 1)
+
+FieldGoalAttempts
+FieldGoals / FieldGoalAttempts  
+Basket.rate.per.attempt <- round(FieldGoals / FieldGoalAttempts, 2)*100
+Basket.rate.per.attempt
