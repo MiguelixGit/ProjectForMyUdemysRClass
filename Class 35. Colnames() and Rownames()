@@ -1,0 +1,39 @@
+#Class 35. Colnames() and Rownames()
+
+Charlie <- 1:5
+Charlie
+
+#How to give names
+?names
+names(Charlie) #The names() functions tell you the names of the object in brackets.
+names(Charlie) <- c("a", "b", "c", "d", "e") #But now it is different: With this code ypu put names to Charlie.
+Charlie
+Charlie["d"]
+names(Charlie)
+
+#How to clear names
+names(Charlie) <- NULL
+Charlie
+
+
+#Naming matrix dimensions
+Temp.vec <- rep(c("a", "B", "zZ"), each=3)
+c("a", "B", "zZ")
+Temp.vec
+
+Bravo <- matrix(Temp.vec, 3, 3)
+Bravo
+
+rownames(Bravo)
+colnames(Bravo)
+
+rownames(Bravo) <- c("How", "are", "you")
+colnames(Bravo) <- c("X", "Y", "Z")
+Bravo
+
+Bravo["are", "Y"] <- 0
+Bravo
+
+colnames(Bravo) <- NULL
+Bravo
+
