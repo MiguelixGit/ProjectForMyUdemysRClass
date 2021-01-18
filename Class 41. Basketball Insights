@@ -1,0 +1,31 @@
+#Class 41. Basketball Insights
+
+My.plot <- function(Data, rows=1:10){
+  Data1 <- Data[rows,, drop=F]
+  matplot(t(Data1), type="b", pch=15:18, col=c(1:4, 6))
+  legend("bottomleft", inset = 0.0001, legend = Players[rows], col=c(1:4, 6), pch=15:18, horiz = F)
+}
+
+My.plot(Games)
+
+
+#Salary
+My.plot(Salary)
+My.plot(Salary / Games)
+My.plot(Salary / FieldGoals)
+
+#In-Game Metrics
+My.plot(MinutesPlayed)
+My.plot(Points)
+
+#In-Game Metrics Normalized
+My.plot(FieldGoals/Games)
+My.plot(FieldGoals/FieldGoalAttempts)
+My.plot(FieldGoalAttempts/Games)
+My.plot(Points/Games)
+
+#Other observations
+My.plot(MinutesPlayed/Games)
+My.plot(Games)
+My.plot(FieldGoals/MinutesPlayed)
+My.plot(Points/FieldGoals)
